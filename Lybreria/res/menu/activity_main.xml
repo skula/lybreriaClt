@@ -3,8 +3,4 @@
         android:title="Favoris"
         android:orderInCategory="100"
         android:showAsAction="never" />
-    <item android:id="@+id/menu_settings"
-        android:title="Paramètres"
-        android:orderInCategory="200"
-        android:showAsAction="never" />
 </menu>

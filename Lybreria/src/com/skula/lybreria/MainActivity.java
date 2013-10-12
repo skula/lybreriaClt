@@ -149,8 +149,6 @@ public class MainActivity extends Activity {
 
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
-		case R.id.menu_settings:
-			return true;
 		case R.id.menu_favorites:
 			updateList(dbService.getFavorites());
 			return true;
