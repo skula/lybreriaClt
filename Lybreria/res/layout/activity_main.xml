@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" android:layout_marginTop="10px">
+	
+		<ImageView
+			android:id="@+id/pictPrevious"
+			android:layout_width="100px"
+			android:layout_gravity="center_vertical"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="12px" android:src="@drawable/previous"/>
+		<ImageView
+			android:id="@+id/pictPlay"
+			android:layout_width="100px"
+			android:layout_gravity="center_vertical"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="12px" android:src="@drawable/play" />
+		<ImageView
+			android:id="@+id/pictPause"
+			android:layout_width="100px"
+			android:layout_gravity="center_vertical"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="12px" android:src="@drawable/pause" />
+		<ImageView
+			android:id="@+id/pictStop"
+			android:layout_width="100px"
+			android:layout_gravity="center_vertical"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="12px" android:src="@drawable/stop"/>
+		<ImageView
+			android:id="@+id/pictNext"
+			android:layout_width="100px"
+			android:layout_gravity="center_vertical"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="12px" android:src="@drawable/next"/>
+		<ImageView
+			android:id="@+id/pictSoundMinus"
+			android:layout_width="100px"
+			android:layout_gravity="center_vertical"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="12px" android:src="@drawable/sound_minus"/>
+		<ImageView
+			android:id="@+id/pictSoundPlus"
+			android:layout_width="100px"
+			android:layout_gravity="center_vertical"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="12px" android:src="@drawable/sound_plus"/>
+		
+		
+	</LinearLayout>
+	
+	<View android:id="@+id/line" android:layout_height="2px" android:layout_marginTop="10px" android:layout_marginBottom="10px"
+		android:background="#6a6a6a" android:layout_width="fill_parent" />
+	
+    <ListView
+            android:id="@+id/itemList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#ffffff" />
+
+</LinearLayout>
